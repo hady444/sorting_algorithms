@@ -1,5 +1,6 @@
 #include "sort.h"
 void quick_sort_Lomuto(int *array, size_t start, size_t end, size_t size);
+void swap(int *array, int i, int j);
 /**
  * quick_sort - sorts an array using the Quick sort algorithm
  * @array: array of ints given
